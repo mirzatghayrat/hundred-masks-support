@@ -1,6 +1,6 @@
 # Hundred Masks — official site
 
-Static site for [Hundred Masks](https://mirzatghayrat.github.io/hundred-masks-support/), a paper-theatre strategy game for iPhone by Aralem.
+Static site for [Hundred Masks](https://aralem.dev/hundred-masks-support/), a paper-theatre strategy game for iPhone by Aralem.
 
 - `index.html` — the game
 - `support/` — help and contact
