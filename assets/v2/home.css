@@ -129,3 +129,31 @@ footer a:hover{color:var(--gold)}
   .strip{grid-template-columns:repeat(2,1fr)}
 }
 @media (prefers-reduced-motion:reduce){.rise{animation:none}.js .reveal{opacity:1;transform:none;transition:none}}
+/* ---------- document pages (support, privacy, 404) ---------- */
+.doc-hero{position:relative;padding:140px 0 50px;overflow:hidden;isolation:isolate}
+.doc-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:url("hero-wide.jpg") 60% 50%/cover;opacity:.22;filter:blur(2px)}
+.doc-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(15,30,30,.3),var(--ink) 92%)}
+.doc-hero h1{font-size:clamp(42px,6.5vw,76px);margin:16px 0 18px;max-width:14em}
+.doc-hero .eyebrow{font:600 12px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin:0}
+.doc-hero .lede a{color:var(--gold)}
+.toc{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.toc a{padding:9px 16px;border:1px solid var(--line);border-radius:999px;color:var(--paper);text-decoration:none;font-size:14px;background:rgba(15,30,30,.4)}
+.toc a:hover{border-color:var(--gold);color:var(--gold)}
+.doc{padding-bottom:100px}.doc>*{max-width:760px}
+.doc article,.doc section{padding:38px 0;border-top:1px solid var(--line);scroll-margin-top:24px}
+.doc .eyebrow{font:600 11px/1 var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin:0 0 12px}
+.doc h2{font-size:clamp(28px,3.6vw,38px);margin-bottom:14px}
+.doc h3{font-size:22px;margin:22px 0 8px}
+.doc p,.doc li{color:var(--paper-dim);font-size:17px;margin:0 0 14px}
+.doc ul{padding-left:20px}
+.doc strong{color:var(--paper)}
+.doc a{color:var(--gold)}
+.doc kbd{font:600 13px/1 var(--sans);padding:4px 8px;border-radius:7px;background:var(--ink-3);border:1px solid var(--line);color:var(--paper)}
+.doc .mute{color:var(--muted)}
+.doc .paper.contact{display:grid;gap:8px;margin:22px 0;padding:24px;border-radius:20px;background:var(--ink-3);border:1px solid var(--line)}
+.doc .paper.contact .who{font:500 26px/1.1 var(--serif);color:var(--paper)}
+.doc .paper.contact a{display:inline-flex;justify-self:start;padding:12px 20px;border-radius:999px;background:var(--paper);color:var(--ink);font-weight:600;text-decoration:none;font-size:15px}
+.top.solid{position:relative}
+.lost{min-height:100svh;display:grid;place-content:center;text-align:center;gap:14px;padding:var(--gutter)}
+.lost h1{font-size:clamp(40px,7vw,80px)}
+.doc .policy h2{margin-top:34px}.doc .policy h2:first-child{margin-top:0}
