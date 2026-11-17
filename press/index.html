@@ -11,16 +11,17 @@
 <meta property="og:image" content="https://aralem.dev/hundred-masks-support/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0f1e1e">
-<link rel="stylesheet" href="../assets/v2/home.css?v=5">
+<link rel="stylesheet" href="../assets/v2/home.css?v=6">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="top"><a class="brand" href="../"><img src="../assets/icon-512.png" alt="" width="38" height="38"><span>Hundred Masks</span></a><nav aria-label="Main"><a href="./" aria-current="page">Press kit</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav></header>
+<header class="top"><a class="brand" href="../"><img src="../assets/icon-512.png" alt="" width="38" height="38"><span>Hundred Masks</span></a><nav aria-label="Main"><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav></header>
 <main id="main">
 <div class="wrap page-head">
   <p class="kicker">Press &amp; creators</p>
   <h1>Press kit</h1>
   <p class="lede" style="margin-top:18px">Everything you need to write about, stream or post Hundred Masks. Free to use for coverage, reviews and social posts about the game.</p>
+  <p class="howto">Select any picture or trailer to see it full size, then download the original from the preview. ZIP packs download straight away.</p>
   <nav class="toc" aria-label="On this page"><a href="#trailers">Trailers</a><a href="#campaign">Campaign posters</a><a href="#characters">Character art</a><a href="#art">Key art &amp; screenshots</a><a href="#captions">Captions</a><a href="#facts">Fact sheet</a><a href="#brand">Brand</a></nav>
 </div>
 <div class="wrap">
@@ -41,13 +42,13 @@
 
   <h2 id="art">Key art &amp; screenshots</h2>
   <div class="grid">
-    <a class="tile" href="files/key-art-3840x1646.png" download><div class="thumb" style="background-image:url(../assets/v2/hero-wide.jpg);background-position:50% 50%"></div><div class="meta"><b>Key art, wide</b><span>3840×1646 · PNG · no text</span></div></a>
-    <a class="tile" href="files/artwork-no-text.zip" download><div class="thumb" style="background-image:url(../assets/v2/cast-wide.jpg);background-position:50% 50%"></div><div class="meta"><b>All artwork, no text</b><span>15 illustrations · PNG · ZIP · 34 MB</span></div></a>
+    <a class="tile" href="files/key-art-3840x1646.png" data-preview="../assets/v2/hero-wide.jpg" download><div class="thumb" style="background-image:url(../assets/v2/hero-wide.jpg);background-position:50% 50%"></div><div class="meta"><b>Key art, wide</b><span>3840×1646 · PNG · no text</span></div></a>
+    <a class="tile" data-act="Download ZIP" href="files/artwork-no-text.zip" download><div class="thumb" style="background-image:url(../assets/v2/cast-wide.jpg);background-position:50% 50%"></div><div class="meta"><b>All artwork, no text</b><span>15 illustrations · PNG · ZIP · 34 MB</span></div></a>
     <a class="tile" href="files/social-landscape_1920x1080.png" download><div class="thumb" style="background-image:url(files/social-landscape_1920x1080.png);background-position:50% 50%"></div><div class="meta"><b>Key art poster 16:9</b><span>1920×1080 · PNG</span></div></a>
     <a class="tile" href="files/social-feed_1080x1350.png" download><div class="thumb" style="background-image:url(files/social-feed_1080x1350.png);background-position:50% 30%"></div><div class="meta"><b>Key art poster 4:5</b><span>1080×1350 · PNG</span></div></a>
     <a class="tile" href="files/social-square_1080x1080.png" download><div class="thumb" style="background-image:url(files/social-square_1080x1080.png);background-position:50% 30%"></div><div class="meta"><b>Key art poster 1:1</b><span>1080×1080 · PNG</span></div></a>
     <a class="tile" href="files/social-story_1080x1920.png" download><div class="thumb" style="background-image:url(files/social-story_1080x1920.png);background-position:50% 20%"></div><div class="meta"><b>Key art poster 9:16</b><span>1080×1920 · PNG</span></div></a>
-    <a class="tile" href="files/screenshots-1320x2868.zip" download><div class="thumb" style="background-image:url(../assets/v2/shot-merge.jpg);background-position:50% 20%"></div><div class="meta"><b>Six store screenshots</b><span>1320×2868 · PNG · ZIP · 23 MB</span></div></a>
+    <a class="tile" data-act="Download ZIP" href="files/screenshots-1320x2868.zip" download><div class="thumb" style="background-image:url(../assets/v2/shot-merge.jpg);background-position:50% 20%"></div><div class="meta"><b>Six store screenshots</b><span>1320×2868 · PNG · ZIP · 23 MB</span></div></a>
     <a class="tile" href="files/app-icon-512.png" download><div class="thumb" style="background:#0a1414 url(files/app-icon-512.png) center/42% no-repeat"></div><div class="meta"><b>App icon</b><span>512×512 · PNG</span></div></a>
   </div>
 
@@ -93,6 +94,59 @@ https://creativecommons.org/licenses/by/4.0/</p></div>
   </dl>
 </div>
 </main>
-<footer><div class="wrap"><span>© 2026 Aralem · Hundred Masks</span><nav aria-label="Footer"><a href="../">Home</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="mailto:support@aralem.dev">support@aralem.dev</a></nav></div></footer>
+<footer><div class="wrap"><span>© 2026 Aralem · Hundred Masks</span><nav aria-label="Footer"><a href="../">Home</a><a href="./" aria-current="page">Press kit</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="mailto:support@aralem.dev">support@aralem.dev</a></nav></div></footer>
+<dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+  <div class="viewer-stage" id="viewer-stage"></div>
+  <div class="viewer-bar">
+    <button type="button" class="viewer-nav" id="viewer-prev" aria-label="Previous item">‹</button>
+    <div class="viewer-text"><b id="viewer-title"></b><span id="viewer-note"></span></div>
+    <a class="pill primary" id="viewer-dl" href="#" download>Download</a>
+    <button type="button" class="pill ghost" id="viewer-close">Close</button>
+    <button type="button" class="viewer-nav" id="viewer-next" aria-label="Next item">›</button>
+  </div>
+</dialog>
+<script>
+(function(){
+  var dlg=document.getElementById('viewer');
+  if(!dlg||typeof dlg.showModal!=='function')return;
+  var stage=document.getElementById('viewer-stage'),title=document.getElementById('viewer-title'),
+      note=document.getElementById('viewer-note'),dl=document.getElementById('viewer-dl');
+  var tiles=Array.prototype.slice.call(document.querySelectorAll('a.tile')).filter(function(t){
+    return !/\.zip$/i.test(t.getAttribute('href'));
+  });
+  var at=0;
+  function thumbOf(t){var m=/url\(([^)]+)\)/.exec(t.querySelector('.thumb').getAttribute('style')||'');return m?m[1]:'';}
+  function show(i){
+    at=(i+tiles.length)%tiles.length;
+    var t=tiles[at],href=t.getAttribute('href'),name=t.querySelector('b').textContent,el;
+    stage.textContent='';
+    if(/\.mp4$/i.test(href)){
+      el=document.createElement('video');el.controls=true;el.playsInline=true;el.preload='metadata';
+      var p=thumbOf(t);if(p)el.poster=p;el.src=href;
+    }else{
+      el=document.createElement('img');el.alt=name;el.src=t.getAttribute('data-preview')||href;
+    }
+    stage.appendChild(el);
+    title.textContent=name;note.textContent=t.querySelector('span').textContent;
+    dl.href=href;dl.setAttribute('aria-label','Download '+name);
+    if(!dlg.open)dlg.showModal();
+  }
+  tiles.forEach(function(t,i){
+    t.setAttribute('data-act','Preview');
+    t.addEventListener('click',function(e){
+      if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+      e.preventDefault();show(i);
+    });
+  });
+  document.getElementById('viewer-close').addEventListener('click',function(){dlg.close()});
+  document.getElementById('viewer-prev').addEventListener('click',function(){show(at-1)});
+  document.getElementById('viewer-next').addEventListener('click',function(){show(at+1)});
+  dlg.addEventListener('click',function(e){if(e.target===dlg||e.target===stage)dlg.close()});
+  dlg.addEventListener('keydown',function(e){
+    if(e.key==='ArrowLeft')show(at-1);else if(e.key==='ArrowRight')show(at+1);
+  });
+  dlg.addEventListener('close',function(){stage.textContent=''});
+})();
+</script>
 </body>
 </html>
