@@ -5,7 +5,7 @@ Static site for [Hundred Masks](https://aralem.dev/hundred-masks-support/), a pa
 - `index.html` — the game
 - `support/` — help and contact
 - `privacy/` — privacy policy
-- `assets/` — stylesheet, icon, screenshots and self-hosted fonts (EB Garamond, SIL Open Font License — see `assets/fonts/OFL-EBGaramond.txt`)
+- `assets/` — stylesheet, script, icon, studio mark, screenshots and self-hosted fonts (EB Garamond, SIL Open Font License — see `assets/fonts/OFL-EBGaramond.txt`)
 
 No build step. Edit the HTML, commit, push; GitHub Pages serves the `main` branch. Nothing on the site loads from third parties.
 

@@ -18,7 +18,7 @@
 <meta name="theme-color" content="#0f1e1e">
 <link rel="preload" href="assets/fonts/EBGaramond-Medium.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/v2/hero-wide.jpg" as="image" media="(min-width:521px)">
-<link rel="stylesheet" href="assets/v2/home.css?v=6">
+<link rel="stylesheet" href="assets/v2/home.css?v=7">
 <script>if('IntersectionObserver' in window)document.documentElement.className='js'</script>
 </head>
 <body>
@@ -147,7 +147,7 @@
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Aralem · Hundred Masks</span>
+    <div class="foot-brand"><a class="studio" href="https://aralem.dev/" aria-label="Aralem home"><img src="assets/aralem-lockup.webp" width="130" height="31" alt="Aralem" loading="lazy"></a><span>© 2026 Aralem · Hundred Masks</span></div>
     <nav aria-label="Footer"><a href="press/">Press kit</a><a href="support/">Support</a><a href="privacy/">Privacy</a><a href="mailto:support@aralem.dev">support@aralem.dev</a></nav>
   </div>
 </footer>
@@ -156,5 +156,6 @@
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
 els.forEach(function(e){io.observe(e)})})();
 </script>
+<script src="assets/v2/site.js?v=1" defer></script>
 </body>
 </html>
